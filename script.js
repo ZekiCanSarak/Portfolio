@@ -61,28 +61,7 @@ function createProjectCards() {
     });
 }
 
-// Handle contact form submission
-function handleContactForm() {
-    const form = document.getElementById('contact-form');
-    
-    form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        
-        const formData = new FormData(form);
-        const data = Object.fromEntries(formData);
-        
-        // Here you would typically send the data to a server
-        // For now, we'll just log it to the console
-        console.log('Form submitted:', data);
-        
-        // Show success message
-        alert('Thank you for your message! I will get back to you soon.');
-        form.reset();
-    });
-}
-
 // Initialize when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     createProjectCards();
-    handleContactForm();
 }); 
