@@ -3,24 +3,17 @@ const projects = [
     {
         title: "StartApp",
         description: "A web application connecting students to startup opportunities and hackathons, featuring real-time messaging, team management, and GitHub integration.",
-        image: "public/images/Screenshot 2025-06-19 at 5.06.34 pm.png", // You'll need to add this image
+        image: "public/images/Screenshot 2025-06-19 at 5.42.42 pm.png", 
         tags: ["Flask", "SQLite", "HTML", "CSS", "JavaScript"],
         github: "https://github.com/ZekiCanSarak/StartApp",
-        demo: "http://165.232.105.213:8080/" // Update with actual demo link if available
+        demo: "http://165.232.105.213:8080/" 
     },
     {
-        title: "Project 2",
-        description: "A responsive website with modern design principles.",
-        tags: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/yourusername/project2",
+        title: "BattleShip Game",
+        description: "Java-based game with CLI and GUI play. Turn-based logic, ship placement, and JUnit-tested game mechanics.",
+        tags: ["Java", "JUnit", "GUI", "CLI"],
+        github: "https://github.com/ZekiCanSarak/BattleshipGame",
         demo: "https://project2.demo"
-    },
-    {
-        title: "Project 3",
-        description: "An interactive web application with dynamic features.",
-        tags: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/yourusername/project3",
-        demo: "https://project3.demo"
     }
 ];
 
