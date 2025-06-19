@@ -3,17 +3,20 @@ const projects = [
     {
         title: "StartApp",
         description: "A web application connecting students to startup opportunities and hackathons, featuring real-time messaging, team management, and GitHub integration.",
-        image: "public/images/Screenshot 2025-06-19 at 5.42.42 pm.png", 
+        image: "public/images/image.png?v=" + new Date().getTime(), 
         tags: ["Flask", "SQLite", "HTML", "CSS", "JavaScript"],
         github: "https://github.com/ZekiCanSarak/StartApp",
-        demo: "http://165.232.105.213:8080/" 
+        demo: "http://165.232.105.213:8080/",
+        demoType: "Demo"
     },
     {
         title: "BattleShip Game",
         description: "Java-based game with CLI and GUI play. Turn-based logic, ship placement, and JUnit-tested game mechanics.",
+        image: "public/images/can cover.png?v=" + new Date().getTime(), 
         tags: ["Java", "JUnit", "GUI", "CLI"],
         github: "https://github.com/ZekiCanSarak/BattleshipGame",
-        demo: "https://project2.demo"
+        demo: "public/videos/Battleship Game CLI and GUI Review.mov",
+        demoType: "Video Demo"
     }
 ];
 
@@ -47,7 +50,7 @@ function createProjectCards() {
                     ${project.demo !== "#" ? `
                     <a href="${project.demo}" target="_blank" class="btn btn-secondary">
                         <i class="fas fa-external-link-alt"></i>
-                        <span style="margin-left: 0.5rem;">Demo</span>
+                        <span style="margin-left: 0.5rem;">${project.demoType}</span>
                     </a>
                     ` : ''}
                 </div>
