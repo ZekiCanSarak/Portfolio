@@ -17,6 +17,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/BattleshipGame",
         demo: "public/videos/Battleship Game CLI and GUI Review.mov",
         demoType: "Video Demo"
+    },
+    {
+        title: "Post-It",
+        description: "Post-it is a simple Reddit-style forum where users can post topics, reply to posts and replies, and like both.",
+        image: "public/images/image1.png?v=" + new Date().getTime(), 
+        tags: ["Flask", "SQLite", "HTML", "CSS", "JavaScript"],
+        github: "https://github.com/ZekiCanSarak/PostIt",
+        demo: "https://postit-cd18.onrender.com",
+        demoType: "Demo"
     }
 ];
 
