@@ -26,6 +26,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/PostIt",
         demo: "https://postit-cd18.onrender.com",
         demoType: "Demo"
+    },
+    {
+        title: "Habit Tracker",
+        description: "A modern, client-side React application for tracking daily and weekly habits. Built with React, TypeScript, and Tailwind CSS.",
+        image: "public/images/habitimage.png?v=" + new Date().getTime(), 
+        tags: ["React", "TypeScript", "Tailwind CSS"],
+        github: "https://github.com/ZekiCanSarak/HabitTracker",
+        demo: "https://zekicansarak.github.io/HabitTracker/",
+        demoType: "Demo"
     }
 ];
 
