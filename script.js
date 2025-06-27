@@ -35,6 +35,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/HabitTracker",
         demo: "https://zekicansarak.github.io/HabitTracker/",
         demoType: "Demo"
+    },
+    {
+        title: "DevTerminal",
+        description: "DevTerminal is a social platform that lets developers share updates and interact using familiar terminal commands, blending the simplicity of a CLI with modern features like posts, likes, and follows.",
+        image: "public/images/DevTerminal.png?v=" + new Date().getTime(), 
+        tags: ["React", "TypeScript", "HTML", "PostgreSQL", "CSS"],
+        github: "https://github.com/ZekiCanSarak/web-shell-sim",
+        demo: "https://web-shell-sim.onrender.com",
+        demoType: "Demo"
     }
 ];
 
