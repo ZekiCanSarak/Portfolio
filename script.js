@@ -6,8 +6,8 @@ const projects = [
         image: "public/images/image.png?v=" + new Date().getTime(), 
         tags: ["Flask", "SQLite", "HTML", "CSS", "JavaScript"],
         github: "https://github.com/ZekiCanSarak/StartApp",
-        demo: "http://165.232.105.213:8080/",
-        demoType: "Demo"
+        demo: "",
+        demoType: "Unavailable"
     },
     {
         title: "BattleShip Game",
