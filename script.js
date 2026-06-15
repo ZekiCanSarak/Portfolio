@@ -44,6 +44,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/web-shell-sim",
         demo: "https://web-shell-sim.onrender.com",
         demoType: "Demo"
+    },
+    {
+        title: "FoodSpin",
+        description: "A slot machine-like web app built with HTML, CSS and JavaScript that spins through countries and reveals a random dish from TheMealDB, including the meal photo, ingredients, and cooking instructions.",
+        image: "public/images/FoodSpin.png?v=" + new Date().getTime(), 
+        tags: ["HTML", "JavaScript", "CSS"],
+        github: "https://github.com/ZekiCanSarak/foodspin",
+        demo: "",
+        demoType: "Not available"
     }
 ];
 
