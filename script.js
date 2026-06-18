@@ -51,8 +51,8 @@ const projects = [
         image: "public/images/FoodSpin.png?v=" + new Date().getTime(), 
         tags: ["HTML", "JavaScript", "CSS"],
         github: "https://github.com/ZekiCanSarak/foodspin",
-        demo: "",
-        demoType: "Not available"
+        demo: "https://zekicansarak.github.io/foodspin/",
+        demoType: "Demo"
     }
 ];
 
