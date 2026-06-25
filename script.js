@@ -53,6 +53,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/foodspin",
         demo: "https://zekicansarak.github.io/foodspin/",
         demoType: "Demo"
+    },
+    {
+        title: "PotholePal",
+        description: "PotholePal is a map-based React application that enables users to report, verify, and track potholes across the UK. Built using React, Vite, React Leaflet, and OpenStreetMap, it includes GPS reporting, photo uploads, interactive maps, filtering, and a community-driven verification and rewards system.",
+        image: "public/images/PotholePalLogo.png?v=" + new Date().getTime(), 
+        tags: ["HTML", "JavaScript", "CSS", "React","Vite"],
+        github: "https://github.com/ZekiCanSarak/PotholeApp",
+        demo: "",
+        demoType: "Unavailable"
     }
 ];
 
