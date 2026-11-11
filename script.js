@@ -62,6 +62,15 @@ const projects = [
         github: "https://github.com/ZekiCanSarak/PotholeApp",
         demo: "",
         demoType: "Unavailable"
+    },
+    {
+        title: "Goalpot",
+        description: "Goalpot is a mobile savings and budgeting app built with React Native, Expo and TypeScript. Users set savings goals, log what they’ve put aside, and track their progress through charts. Based on their monthly income after tax, the app suggests a budget split using the 50/30/20 rule, offers saving tips tailored to their income level, and sends reminders like “You have £340 left to save for New laptop.”",
+        image: "public/images/Goalpotthumbnail@1x.png?v=" + new Date().getTime(), 
+        tags: ["React Native", "Expo", "TypeScript", "iOS & Android"],
+        github: "https://github.com/ZekiCanSarak/savings-app",
+        demo: "",
+        demoType: "Unavailable"
     }
 ];
 
