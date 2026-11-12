@@ -69,8 +69,8 @@ const projects = [
         image: "public/images/Goalpotthumbnail@1x.png?v=" + new Date().getTime(), 
         tags: ["React Native", "Expo", "TypeScript", "iOS & Android"],
         github: "https://github.com/ZekiCanSarak/savings-app",
-        demo: "",
-        demoType: "Unavailable"
+        demo: "https://goalpot.expo.app",
+        demoType: "Demo"
     }
 ];
 
